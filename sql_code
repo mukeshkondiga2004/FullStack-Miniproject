@@ -1,0 +1,9 @@
+use m;
+CREATE TABLE users1 (
+    uname VARCHAR(100) NOT NULL,
+    upwd VARCHAR(100) NOT NULL,
+    uemail VARCHAR(100) NOT NULL UNIQUE,
+    umobile VARCHAR(15)NOT NULL
+);
+desc users1;
+select * from users1;
